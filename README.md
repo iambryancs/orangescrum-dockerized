@@ -1,5 +1,9 @@
 # OrangeScrum-Dockerized
-Is a copy of **OrangeScrum** based on its original docker image at https://hub.docker.com/r/orangescrum/official/ to be able to use docker-compose.
+A copy of **OrangeScrum** based on its original docker image at https://hub.docker.com/r/orangescrum/official/.
+
+## Why I made this and not use the provided image?
+The current image needs apache and mysql to be started interactively. I wanted to eliminate that using supervisor.
+Also, I wanted to use Docker Compose to make things easier.
 
 ## Requirements
 * [Docker](https://docs.docker.com/engine/installation/)
